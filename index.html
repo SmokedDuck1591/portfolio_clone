@@ -1,55 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GGung's Portfolio</title>
-    <meta name="description" content="Portfolio for junior software engineer GGung">
-    <meta name="author" content="GGung"></meta>
-    <link rel="icon" type="image/png" href="imgs/favicon.png">
-    <script
-      src="https://kit.fontawesome.com/190b66f188.js" 
-      crossorigin="anonymous">
-    </script>
-    <link 
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" 
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script src="main.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GGung's Portfolio</title>
+  <meta name="description" content="Portfolio for junior software engineer GGung">
+  <meta name="author" content="GGung">
+  </meta>
+  <link rel="icon" type="image/png" href="imgs/favicon.png">
+  <script src="https://kit.fontawesome.com/190b66f188.js" crossorigin="anonymous">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
 </head>
+
 <body>
-    <!-- Navbar -->
+  <!-- Navbar -->
   <nav id="navbar">
-      <div class="navbar__logo">
-        <i class="fab fa-wolf-pack-battalion"></i>
-        <a href+"#">GGung</a>
-      </div>
-      <div class="navbar__menu">
-        <ul class="navbar__menu">
-          <li class="navbar__menu__item">Home</li>
-          <li class="navbar__menu__item">About</li>
-          <li class="navbar__menu__item">Skills</li>
-          <li class="navbar__menu__item">My work</li>
-          <li class="navbar__menu__item">Testimonial</li>
-          <li class="navbar__menu__item">Contact</li>
-        </ul>
-      </div>
-  </nav>  
+    <div class="navbar__logo">
+      <i class="fab fa-wolf-pack-battalion"></i>
+      <a href+"#">GGung</a>
+    </div>
+    <div class="navbar__menu">
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item">Home</li>
+        <li class="navbar__menu__item">About</li>
+        <li class="navbar__menu__item">Skills</li>
+        <li class="navbar__menu__item">My work</li>
+        <li class="navbar__menu__item">Testimonial</li>
+        <li class="navbar__menu__item">Contact</li>
+      </ul>
+    </div>
+  </nav>
 
   <!-- Home-->
   <section id="home">
-    <img
-     src="imgs/IRENE.jpg"
-     alt="tmp" 
-     class="home__avatar"
-    />
+    <img src="imgs/IRENE.jpg" alt="tmp" class="home__avatar" />
     <h1 class="home__title">Hello, <br />I'm Dream Coder</h1>
     <h2 class="home__description">I want Software Engineer... and I will be !!</h2>
     <button class="home__contact">Contact Me</button>
   </section>
   <!-- About -->
-  <section id="about"></section>
+  <section id="about">
+    <h1>About me</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quidem sed earum aut, ab quisquam blanditiis
+      quaerat architecto nihil unde deleniti porro nostrum ullam illo voluptate est officia provident eligendi.
+    </p>
+    <div class="about__majors">
+      <div class="major">
+        <div class="major__icon">
+          <i class="fab fa-html5"></i>
+        </div>
+        <div class="major__title">
+          front-end
+        </div>
+        <div class="major__description">
+          HTML, CSS, JavaScript, React
+        </div>
+      </div>
+      <div class="major">
+        <div class="major__icon">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <div class="major__title">
+          Mobile
+        </div>
+        <div class="major__description">
+          Android, iOS, React Native
+        </div>
+      </div>
+      <div class="major">
+        <div class="major__icon">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <div class="major__title">
+          back-end
+        </div>
+        <div class="major__description">
+          java, javScript, GO, NodeJS
+        </div>
+      </div>
+    </div>
+    <div class="about__jobs">
+      <div class="job">
+        <img src="" alt="" class="job__logo">
+        <p class="job__name"></p>
+        <p class="job__period"></p>
+      </div>
+    </div>
+  </section>
   <!-- Skills -->
   <section id="skills"></section>
   <!-- Work -->
@@ -59,4 +100,5 @@
   <!-- Contact -->
   <section id="contact"></section>
 </body>
+
 </html>
